@@ -30,18 +30,18 @@
   },
   "binderFields": {
     "document_id__v": ["Global ID"],
-    "slide.therapy_area__c.name__v": ["Therapy Area", "Disease Area"],
+    "slide.therapy_area__c.name__v": ["Disease Area"],
     "slide.disease_state__c.name__v": ["Disease State"],
     "slide.country__v.name__v": ["Country"],
     "slide.product__v.name__v": ["Local Product Name"],
     "slide.global_product_name__c.name__v": ["Global Product Name"],
     "slide.language__v": ["Language"],
     "slide.user_groups__c": ["User Groups"],
-    "slide.crm_disable_actions__v": ["Disable Actions", "disable action"]
+    "slide.crm_disable_actions__v": ["Disable Actions"]
   },
   "slideFields": {
     "document_id__v": ["Global ID"],
-    "slide.therapy_area__c.name__v": ["Therapy Area", "Disease Area"],
+    "slide.therapy_area__c.name__v": ["Disease Area"],
     "slide.disease_state__c.name__v": ["Disease State"],
     "slide.country__v.name__v": ["Country"],
     "slide.product__v.name__v": ["Local Product Name"],
@@ -49,7 +49,7 @@
     "slide.language__v": ["Language"],
     "slide.user_groups__c": ["User Groups"],
     "name__v": ["Document Name"],
-    "slide.title__v": ["Description", "Document Name"],
+    "slide.title__v": ["Description"],
     "slide.key_content__c": ["Key Content"]
   },
   "coreMappingIndices": {
