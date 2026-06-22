@@ -1,1 +1,87 @@
 
+{
+  "crmOrgMapping": {
+    "rucis": "V0D00PROD000005YWX,00D3E000000PLIUA2",
+    "apna": "V0D00PROD000005YP1,00DO0000004yKZNMA2",
+    "mena": "V0D00PROD000005XHW,00D7E000000FVmSUAW",
+    "latam": "V0D00PROD000005YJN,V0D00PROD000005VKI",
+    "global": "V0D00PROD000006V2C"
+  },
+  "defaults": {
+    "lifecycle__v": "CRM Content Lifecycle",
+    "slide.clm_content__v": "YES",
+    "slide.engage_content__v": "NO",
+    "slide.crm_media_type__v": "HTML",
+    "Fields Only": "No",
+    "slide.key_content__c": "No"
+  },
+  "sharedOverrides": {
+    "Type": "shared",
+    "slide.clm_id__v": "shared",
+    "slide.crm_shared_resource__v": "YES",
+    "slide.filename": "shared.zip",
+    "slide.key_content__c": "No",
+    "slide.related_shared_resource__v": "",
+    "Presentation Link": ""
+  },
+  "slideOverrides": {
+    "Type": "Slide",
+    "slide.crm_shared_resource__v": "NO"
+  },
+  "binderFields": {
+    "document_id__v": ["Global ID"],
+    "slide.therapy_area__c.name__v": ["Therapy Area", "Disease Area"],
+    "slide.disease_state__c.name__v": ["Disease State"],
+    "slide.country__v.name__v": ["Country"],
+    "slide.product__v.name__v": ["Local Product Name"],
+    "slide.global_product_name__c.name__v": ["Global Product Name"],
+    "slide.language__v": ["Language"],
+    "slide.user_groups__c": ["User Groups"],
+    "slide.crm_disable_actions__v": ["Disable Actions", "disable action"]
+  },
+  "slideFields": {
+    "document_id__v": ["Global ID"],
+    "slide.therapy_area__c.name__v": ["Therapy Area", "Disease Area"],
+    "slide.disease_state__c.name__v": ["Disease State"],
+    "slide.country__v.name__v": ["Country"],
+    "slide.product__v.name__v": ["Local Product Name"],
+    "slide.global_product_name__c.name__v": ["Global Product Name"],
+    "slide.language__v": ["Language"],
+    "slide.user_groups__c": ["User Groups"],
+    "name__v": ["Document Name"],
+    "slide.title__v": ["Description", "Document Name"],
+    "slide.key_content__c": ["Key Content"]
+  },
+  "coreMappingIndices": {
+    "clmId": ["CLM ID"],
+    "docName": ["Document Name"],
+    "description": ["Description"],
+    "presentationIdExcel": ["Presentation Id"],
+    "docNumber": ["Document Number"]
+  },
+  "headers": {
+    "updateSlides": [
+      "document_id__v", "external_id__v", "Type", "name__v", "slide.title__v",
+      "slide.user_groups__c", "lifecycle__v", "slide.filename", "slide.clm_content__v",
+      "slide.clm_id__v", "slide.crm_shared_resource__v", "slide.engage_content__v",
+      "slide.crm_media_type__v", "Fields Only", "slide.therapy_area__c.name__v", 
+      "slide.disease_state__c.name__v", "slide.country__v.name__v", "slide.product__v.name__v",
+      "slide.global_product_name__c.name__v", "slide.language__v", "slide.crm_org__v.crm_org_id__v",
+      "slide.crm_product__v.id", "slide.key_content__c", "Presentation Link"
+    ],
+    "newBinder": [
+      "document_id__v", "external_id__v", "Type", "name__v", "slide.title__v",
+      "slide.user_groups__c", "lifecycle__v", "slide.filename", "slide.clm_content__v",
+      "slide.clm_id__v", "slide.crm_shared_resource__v", "slide.engage_content__v",
+      "slide.crm_media_type__v", "Fields Only", "slide.therapy_area__c.name__v", 
+      "slide.disease_state__c.name__v", "slide.country__v.name__v", "slide.product__v.name__v",
+      "slide.global_product_name__c.name__v", "slide.language__v", "slide.crm_org__v.crm_org_id__v",
+      "slide.crm_product__v.id", "slide.key_content__c", "slide.crm_disable_actions__v", 
+      "slide.related_shared_resource__v", "Presentation Link"
+    ]
+  },
+  "protectedSlideKeys": [
+    "Type", "name__v", "slide.title__v", "slide.filename", "slide.clm_id__v", 
+    "slide.crm_shared_resource__v", "slide.related_shared_resource__v", "Presentation Link"
+  ]
+}
