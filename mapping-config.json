@@ -67,7 +67,7 @@
       "slide.crm_media_type__v", "Fields Only", "slide.therapy_area__c.name__v", 
       "slide.disease_state__c.name__v", "slide.country__v.name__v", "slide.product__v.name__v",
       "slide.global_product_name__c.name__v", "slide.language__v", "slide.crm_org__v.crm_org_id__v",
-      "slide.crm_product__v.id", "slide.key_content__c", "Presentation Link"
+      "slide.crm_product__v.id", "slide.key_content__c"
     ],
     "newBinder": [
       "document_id__v", "external_id__v", "Type", "name__v", "slide.title__v",
